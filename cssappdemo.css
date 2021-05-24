@@ -1,0 +1,22 @@
+.caja {
+    max-width: 1800px;
+    width: 90%;
+    background-color: rgba(44, 32, 156, 0.76);
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+.imagen{
+ height: 5rem;
+ width: 20rem;
+ 
+ 
+
+}
+
+
+#muestras img  { width: 100px; margin: 10px 30px; cursor: pointer, hand; }
+#visor  { text-align: center; float: right; margin: 0 20px }
+#pantalla  { width: 500px; padding: 30px; border: 5px double green; 
+            background-color: #f4f0c9; }

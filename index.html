@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo getElementById</title>
+    <link rel="stylesheet" href="cssappdemo.css">
+</head>
+<body onload = "llenar();">
+    <h1>CURSOS DE INGLES GRATIS</h1>
+   <div class="imagen">
+     <img  src="/imagenes/img1.png" alt="" width="600" height="80"  > </div>
+   
+
+    <div class="caja">
+    
+      <form name="miproducto" action="">
+       <div id="mregistro"><h1>Información Personal</h1>
+       </div>
+
+        <select id="año"></select>
+        <select id="mes"></select>
+        <select id="dia"></select>
+
+       <label for="nombre">Nombre</label>
+       <input type="text" id="nombre" name="fnombre"></input>
+       <label for="apellido1">Primer Apellido</label>
+       <input type="text" id="apellido1" name="fapellido1"></input>
+       <label for="apellido1">Segundo Apellido</label>
+       <input type="text" id="apellido2" name="fapellido2"></input><br><br>
+       
+       <label for="DI">Documento de Identidad</label>
+       <select id="cc"></select>
+       <input type="text" id="DI" name="fcc"></input>
+
+ 
+       <input type="radio" id="casado" name="fcasado"></input>
+       <label for="casado">Casado</label>
+      
+       <input type="radio" id="casado" name="fcasado"></input>
+       <label for="casado">Divorsiado</label>
+
+       <input type="radio" id="casado" name="fcasado"></input>
+       <label for="casado">Union Libre</label>
+       <br><br>
+
+       <label for="telefono">Telefono</label>
+       <input type="text" id="telefono" name="ftelefono"></input>
+       <label for="fijo">Telefono</label>
+       <input type="text" id="fijo" name="ffijo"></input>
+       <label for="direccion">Dirección</label>
+       <input type="text" id="direccion" name="fdireccion"></input>
+       </div>
+  
+
+
+    <div class="caja">
+      <div id="mforma"><h1>Información Académica</h1>
+        <label for="nivelacad">Nivel Academico</label>
+        <input type="text" id="nivelacad" name="fnivelacad"></input>
+        <label for="otrosestu">Otros Estudios</label>
+        <input type="text" id="otrosestu" name="fotrosestu"></input>
+        <label for="cursos">Cursos</label>
+        <input type="text" id="cursos" name="fcursos"></input><br><br>
+      </div>   
+    </div>
+
+
+<div class="caja">
+  <form name="suscripcion" action="#">
+    <h1>Hobbies</h1>
+    <input  type="checkbox" name="deportes" value="Noticias Deportes" />
+         <label for="deportes">Deportes</label><br/>
+    <input type="checkbox" name="noticias" value="Noticias" />
+         <label for="noticias">Música</label><br/>
+    <input type="checkbox" name="economia" value="Eventos Economia" />
+         <label for="economia">Lectura</label><br/>
+    <input type="checkbox" name="cultura" value ="Cultura" />
+         <label for="cultura">Baile</label><br/>
+    <input type="checkbox" name="medioambiente" value="Medio Ambiente" />
+    <label for="medioambiente">Dormir</label><br/><br/>
+      </form>
+    <div id="cajaS1">
+
+    </div>
+</div>
+
+    
+
+    <script src="appdemo.js"></script>
+  </body>
+</html>
